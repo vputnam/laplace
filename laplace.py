@@ -40,9 +40,6 @@ f.close()
 total2= len(D2)*len(value2)
 trueavg2 = float(count)/float(total1)
 
-
-
-
 plt.xlabel('x')
 plt.ylabel('pdf')
 plt.title('Title')
