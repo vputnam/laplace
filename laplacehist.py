@@ -56,6 +56,5 @@ plt.hist(average2, bins=100)
 
 plt.xlabel('x')
 plt.ylabel('pdf')
-plt.title('Title')
 
 plt.show()
