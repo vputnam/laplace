@@ -12,7 +12,7 @@ def dp_avg(A, xmax, xmin, epsilon):
             sys.exit(error)
     mu = np.mean(A)
     print mu
-    b = np.std(A)*epsilon #find b with respect to epsilon
+    b = np.std(A)*epsilon
     n = 1000
     return rand_laplace(mu,b,n) 
     
